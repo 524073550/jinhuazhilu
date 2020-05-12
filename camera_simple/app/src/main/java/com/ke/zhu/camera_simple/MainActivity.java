@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean onSurfaceTextureDestroyed(SurfaceTexture surface) {
-                //TODO:释放camera资源
+                releaseCamera();
                 return true;
             }
 
